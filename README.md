@@ -1,6 +1,6 @@
 # Remote Shell
 
-[![](https://goreportcard.com/badge/github.com/andygeiss/preload)](https://goreportcard.com/report/github.com/andygeiss/preload)
+[![](https://goreportcard.com/badge/github.com/andygeiss/remote-shell)](https://goreportcard.com/report/github.com/andygeiss/remote-shell)
 
 Open a remote shell in context of a dynamic binary by using a trampoline function like strrchr. 
 
