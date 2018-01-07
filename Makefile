@@ -8,6 +8,7 @@ all: clean test build
 $(APPNAME):
 	@echo $(TS) Building binaries ...
 	@go build $(LDFLAGS) -o build/$(APPNAME).so platform/$(APPNAME)/main.go
+	@strip build/$(APPNAME).so
 	@echo $(TS) Done.
 
 build: $(APPNAME)
